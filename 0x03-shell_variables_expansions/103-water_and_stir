@@ -1,0 +1,2 @@
+#!/bin/bash
+echo -n "$WATER$STIR" | xxd -r -p | perl -0777 -pe '$_=pack"B*",unpack"h*"'
